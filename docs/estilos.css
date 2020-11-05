@@ -34,7 +34,7 @@
     max-height: 400px;
     width: 95%;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     position: relative;
 }
@@ -205,4 +205,14 @@
     font-size: 1.2rem;
 }
 
+.link-ceremonia{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2rem;
 
+}
+
+.link-ceremonia a {
+    font-size: 1rem;
+}
