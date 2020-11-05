@@ -1,0 +1,208 @@
+.main-container {
+    width: 90%;
+    height: 1000px;
+    margin: 10% auto;
+    border: .1px solid rgb(189, 185, 185);
+    border-radius: 5px;
+    /* box-shadow:  rgb(235, 227, 227) 3px 3px  3px 3px; */
+    background-color: rgb(252, 246, 215)
+}
+
+.main-container__logo {
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.main-container__logo .img1 {
+    width: 90%;
+}
+
+.leyenda {
+    margin: 100px 80px 0 80px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5rem;
+}
+
+.leyenda p {
+    text-align: justify;
+    height: auto;
+}
+
+.contenedor-birretes {
+    height: 70%;
+    max-height: 400px;
+    width: 95%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+}
+
+
+.birretes1 {
+    display: none;
+}
+
+
+.birrete {
+    width: 20px;
+    height: 60px;
+    animation: maria 2.5s ease-out infinite alternate;
+}
+
+.birrete.a {
+    animation-delay: .5s;
+    margin-top: 80px;
+    margin-left: 20%;
+    transform: rotate(-20deg);
+    position: absolute;
+}
+
+.birrete.b {
+    animation-delay: .3s;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -20%;
+    transform: rotate(30deg);
+}
+
+.birrete.c {
+    animation-delay: .4s;
+    margin-left: -10%;
+    position: absolute;
+    margin-top: 30px;
+    transform: rotate(15deg);
+}
+
+.birrete.d {
+    animation-delay: .3s;
+    margin-left: 0%;
+    position: absolute;
+    margin-top: 50px;
+    transform: rotate(-30deg);
+}
+
+.birrete.e {
+    animation-delay: .5s;
+    margin-left: 15%;
+    position: absolute;
+    margin-top: 60px;
+}
+
+.birrete.f {
+    animation-delay: .6s;
+    margin-left: 10%;
+    position: absolute;
+    transform: rotate(25deg);
+    margin-top: 60px;
+}
+
+.birrete.g {
+    animation-delay: .4s;
+    margin-left: 5%;
+    position: absolute;
+    transform: rotate(20deg);
+    margin-top: 60px;
+}
+
+@keyframes maria {
+    0% {
+        transform: translate(25px, 5px) rotate(-30deg) scale(1.2);
+    }
+    
+    100% {
+        transform: translate(100px, -700px) rotate(300deg);
+    }
+}
+
+.c1 {
+    width: 25px;
+    height: 18px;
+    background: rgb(67, 1, 61);
+    transform-origin: 50% 50%;
+    transform: rotate(28deg) skew(-45deg) scale(.8) translateX(-5px);
+    border-bottom: 1.5px solid rgb(250, 200, 0);
+    border-right: 2px solid rgb(250, 200, 0);
+    border-radius: 1px 3px 1px 3px;
+    color: white;
+    font-size: .5em;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+}
+
+.c2 {
+    width: 20px;
+    height: 10.5px;
+    border-left: 18px solid black;
+    transform-origin: 0% 0%;
+    transform: translate(3px, -8px) rotate(-18deg);
+    border-radius: 0px 0px 0 0px;
+    position: absolute;
+    z-index: -1;
+}
+
+.c3 {
+    width: 20px;
+    height: 10px;
+    border-left: 13px solid black;
+    transform-origin: 0% 100%;
+    transform: translate(-5px, -14px) rotate(28deg);
+    border-radius: 0 0 0px 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.c4 {
+    width: 20px;
+    height: 15px;
+    border-right: 1px solid rgb(250, 200, 0);
+    transform-origin: 100% 100%;
+    transform: translateX(-2px) translateY(-10px);
+    border-radius: 0 0 0px 0;
+    z-index: 1;
+}
+
+.c5 {
+    max-width: 2px;
+    height: 2px;
+    background: rgb(250, 200, 1);
+    border-right: 15px solid rgb(200, 200, 0);
+    transform-origin: 100% 100%;
+    transform: translateX(2.8px) translateY(-14px) scaleX(.15);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+
+.contenedor-boton{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+#birrete-boton {
+    font-size: 4rem;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+
+
+#birrete-boton i:active {
+    border: none    
+}
+
+
+
+.contenedor-boton p {
+    font-family: 'Roboto Condensed', sans-serif;
+    
+    font-size: 1.2rem;
+}
+
+
