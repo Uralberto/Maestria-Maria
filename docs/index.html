@@ -1,109 +1,105 @@
-<!DOCTYPE html
-    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
+  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>MariaIsabel</title>
     <meta name="author" content="Uriel" />
-    <link rel="stylesheet" href="estilos.css">
-    <link href = "https://fonts.googleapis.com/css2? family = Roboto + Condensed & display = swap" rel = "stylesheet">
-    <script src="https://kit.fontawesome.com/f88703c73c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2? family = Roboto + Condensed & display = swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/f88703c73c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <div class="main-container">
+      <div class="main-container__logo">
+        <img class="img1" src="./LogoUAndes.png" alt="" />
+      </div>
 
-        <div class="main-container__logo">
-            <img class="img1" src="./LogoUAndes.png" alt="">
+      <div class="leyenda">
+        <p>
+          Estamos muy complacidos y felices de compartirles una buena nueva:
+          María Isabel se gradúa de Magister en Ingeniería de Software. El
+          título lo recibirá de la Universidad de Los Andes en ceremonia virtual
+          programada para el día 06 de noviembre de 2020.
+        </p>
+      </div>
+
+      <div class="contenedor-birretes">
+        <div class="birretes">
+          <div class="birrete a">
+            <div class="c1">María</div>
+            <div class="c2"></div>
+            <div class="c3"></div>
+            <div class="c4"></div>
+            <div class="c5"></div>
+          </div>
+          <div class="birrete b">
+            <div class="c1"></div>
+            <div class="c2"></div>
+            <div class="c3"></div>
+            <div class="c4"></div>
+            <div class="c5"></div>
+          </div>
+          <div class="birrete c">
+            <div class="c1"></div>
+            <div class="c2"></div>
+            <div class="c3"></div>
+            <div class="c4"></div>
+            <div class="c5"></div>
+          </div>
+          <div class="birrete d">
+            <div class="c1"></div>
+            <div class="c2"></div>
+            <div class="c3"></div>
+            <div class="c4"></div>
+            <div class="c5"></div>
+          </div>
+          <div class="birrete e">
+            <div class="c1"></div>
+            <div class="c2"></div>
+            <div class="c3"></div>
+            <div class="c4"></div>
+            <div class="c5"></div>
+          </div>
+          <div class="birrete f">
+            <div class="c1"></div>
+            <div class="c2"></div>
+            <div class="c3"></div>
+            <div class="c4"></div>
+            <div class="c5"></div>
+          </div>
+          <div class="birrete g">
+            <div class="c1"></div>
+            <div class="c2"></div>
+            <div class="c3"></div>
+            <div class="c4"></div>
+            <div class="c5"></div>
+          </div>
         </div>
 
-
-        <div class="leyenda">
-        <p > Estamos muy complacidos y felices de compartirles una buena nueva: María Isabel se gradúa de Magister en Ingeniería de Software. El título lo recibirá de la Universidad de Los Andes en ceremonia virtual  programada para el día 06 de noviembre de 2020. </p>
-         
+        <div class="contenedor-boton">
+          <button id="birrete-boton" onclick="animarBirretes()">
+            <i class="far fa-play-circle"></i>
+          </button>
+          <p>¡Birretes arriba!</p>
         </div>
+      </div>
 
-
-        <div class="contenedor-birretes">
-            <div class="birretes">
-                <div class="birrete a" >
-                    <div class="c1">María</div>
-                    <div class="c2"></div>
-                    <div class="c3"></div>
-                    <div class="c4"></div>
-                    <div class="c5"></div>
-                </div>
-                <div class="birrete b">
-    
-                    <div class="c1"></div>
-                    <div class="c2"></div>
-                    <div class="c3"></div>
-                    <div class="c4"></div>
-                    <div class="c5"></div>
-                </div>
-                <div class="birrete c">
-                    <div class="c1"></div>
-                    <div class="c2"></div>
-                    <div class="c3"></div>
-                    <div class="c4"></div>
-                    <div class="c5"></div>
-                </div>
-                <div class="birrete d">
-                    <div class="c1"></div>
-                    <div class="c2"></div>
-                    <div class="c3"></div>
-                    <div class="c4"></div>
-                    <div class="c5"></div>
-                </div>
-                <div class="birrete e">
-                    <div class="c1"></div>
-                    <div class="c2"></div>
-                    <div class="c3"></div>
-                    <div class="c4"></div>
-                    <div class="c5"></div>
-                </div>
-                <div class="birrete f">
-                    <div class="c1"></div>
-                    <div class="c2"></div>
-                    <div class="c3"></div>
-                    <div class="c4"></div>
-                    <div class="c5"></div>
-                </div>
-                <div class="birrete g">
-                    <div class="c1"></div>
-                    <div class="c2"></div>
-                    <div class="c3"></div>
-                    <div class="c4"></div>
-                    <div class="c5"></div>
-                </div>
-                
-            </div>
-            
-
-            <div class="contenedor-boton">
-            <button id= "birrete-boton" onclick="animarBirretes()"> 
-                <i class="far fa-play-circle"></i>
-              </button>
-              <p>¡Birretes arriba!</p> 
-            </div>
-             </div>
-
-             <div  class="link-ceremonia">
-                <a href="https://live.eventtia.com/es/grados-uniandes-2020-2/Ingenieria-maestria-I/"> Enlace de la ceremonia  </a>
-            </div>
-       
-            </div>
-        
-
+      <div class="link-ceremonia">
+        <a
+          href="https://live.eventtia.com/es/grados-uniandes-2020-2/Ingenieria-maestria-I/"
+        >
+          Enlace de la ceremonia
+        </a>
+      </div>
     </div>
 
-    
-
     <script src="maria.js"></script>
-
-</body>
-
+  </body>
 </html>
