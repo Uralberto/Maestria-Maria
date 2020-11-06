@@ -57,67 +57,55 @@
 }
 
 .birrete.a {
-    animation-delay: .5s;
+    animation-delay: .6s;
     margin-top: 80px;
-    margin-left: 35%;
-    transform: rotate(-20deg);
+    margin-left: 45%;
     position: absolute;
+    transform: scale(2.5);
+    
 }
 
 .birrete.b {
-    animation-delay: .3s;
+    animation-delay: .5s;
     position: absolute;
     margin-top: 50px;
     margin-left: -15%;
-    transform: rotate(30deg);
+    transform: scale(2.5);
 }
 
 .birrete.c {
-    animation-delay: .4s;
-    margin-left: -5%;
+    animation-delay: .7s;
+    margin-left: 0%;
     position: absolute;
     margin-top: 30px;
-    transform: rotate(15deg);
+    transform: scale(2.5);
 }
 
 .birrete.d {
-    animation-delay: .3s;
-    margin-left: 10%;
+    animation-delay: .4s;
+    margin-left: 18%;
     position: absolute;
     margin-top: 50px;
-    transform: rotate(-20deg);
+    transform: scale(2.5);
 }
 
 .birrete.e {
-    animation-delay: .5s;
-    margin-left: 25%;
+    animation-delay: .3s;
+    margin-left: 30%;
     position: absolute;
     margin-top: 60px;
+    transform: scale(2.5);
+
 }
 
-.birrete.f {
-    animation-delay: .6s;
-    margin-left: 20%;
-    position: absolute;
-    transform: rotate(25deg);
-    margin-top: 60px;
-}
-
-.birrete.g {
-    animation-delay: .4s;
-    margin-left: 15%;
-    position: absolute;
-    transform: rotate(20deg);
-    margin-top: 60px;
-}
 
 @keyframes maria {
     0% {
-        transform: translate(25px, 5px) rotate(-30deg) scale(1.4);
+        transform: translate(25px, 5px) rotate(-30deg) scale(2.5);
     }
     
     100% {
-        transform: translate(100px, -700px) rotate(300deg) scale(1.4);
+        transform: translate(100px, -700px) rotate(300deg) scale(2.5);
     }
 }
 
