@@ -1,6 +1,6 @@
 .main-container {
     width: 90%;
-    height: 1200px;
+    height: 1300px;
     margin: 10% auto;
     border: .1px solid rgb(189, 185, 185);
     border-radius: 5px;
@@ -59,7 +59,7 @@
 .birrete.a {
     animation-delay: .5s;
     margin-top: 80px;
-    margin-left: 20%;
+    margin-left: 35%;
     transform: rotate(-20deg);
     position: absolute;
 }
@@ -68,13 +68,13 @@
     animation-delay: .3s;
     position: absolute;
     margin-top: 50px;
-    margin-left: -20%;
+    margin-left: -15%;
     transform: rotate(30deg);
 }
 
 .birrete.c {
     animation-delay: .4s;
-    margin-left: -10%;
+    margin-left: -5%;
     position: absolute;
     margin-top: 30px;
     transform: rotate(15deg);
@@ -82,22 +82,22 @@
 
 .birrete.d {
     animation-delay: .3s;
-    margin-left: 0%;
+    margin-left: 10%;
     position: absolute;
     margin-top: 50px;
-    transform: rotate(-30deg);
+    transform: rotate(-20deg);
 }
 
 .birrete.e {
     animation-delay: .5s;
-    margin-left: 15%;
+    margin-left: 25%;
     position: absolute;
     margin-top: 60px;
 }
 
 .birrete.f {
     animation-delay: .6s;
-    margin-left: 10%;
+    margin-left: 20%;
     position: absolute;
     transform: rotate(25deg);
     margin-top: 60px;
@@ -105,7 +105,7 @@
 
 .birrete.g {
     animation-delay: .4s;
-    margin-left: 5%;
+    margin-left: 15%;
     position: absolute;
     transform: rotate(20deg);
     margin-top: 60px;
@@ -113,11 +113,11 @@
 
 @keyframes maria {
     0% {
-        transform: translate(25px, 5px) rotate(-30deg) scale(1.2);
+        transform: translate(25px, 5px) rotate(-30deg) scale(1.4);
     }
     
     100% {
-        transform: translate(100px, -700px) rotate(300deg);
+        transform: translate(100px, -700px) rotate(300deg) scale(1.4);
     }
 }
 
@@ -215,5 +215,6 @@
     font-size: 2rem;
     text-align: center;
     padding-bottom: 50px;
+    padding-right: 10px;
     text-decoration: none;
 }
