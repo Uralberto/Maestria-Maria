@@ -170,7 +170,7 @@
 
 
 
-.contenedor-boton{
+.boton-play-pause{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -184,7 +184,7 @@
 }
 
 
-.contenedor-boton p {
+.boton-play-pause p {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 2rem;
     text-align: center;
