@@ -1,0 +1,7 @@
+MARÍA-MAESTRIA
+
+Desde muy antes de alcanzar  el grado de bachiller María, mi hija,  dió diferentes señales de su interés por el universo de la internet y temas  de software. Pudo intuir el manejo de  una herramienta de SketchUp, un programa de dieño 3D que ella jamás había visto. Me sorprendió dotando a mi pc con un software para editar documentos pdf, algo que necesitaba con urgencia. Hablo de cuando aún no había llegado a los 14 años. 
+
+Cuando en casa le preguntamos que carrera estudiar ya imaginabamos la respuesta: Ingeniería de sistemas. Terminó su pregrado en la  Universidad de Los Andes, Colombia, donde le fue otorgada una beca de apoyo económico.  Allí mismo terminó su maestría en Ingeniería de Software, un evento que me dío  energía para hacerle un detalle especial. Se me ocurrió este respositorio que despliega una tarjeta de participación que compartí con familiares y amigos. 
+
+Además del detalle,  fue un ejercicio agradable para practicar la maquetación mobile first. Realicé un curso sobre el tema en la plataforma educativa Platzi y sentí la necesidad de hacer algo para afianzar lo aprendido. Algo que llamó la atención en la familia fueron los birretes animados. Suben y bajan a merced de quien interactúa con la tajeta. Para ello es necesario unas pocas líneas de código de javascript. Los birretes están hechos a partir de elementos html manipulados con estilos de css.  
